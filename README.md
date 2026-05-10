@@ -94,7 +94,7 @@ Tras el proceso de impresión y ajuste manual, este es el resultado del mecanism
 
 <div align="center">
   <img src="./img/resultado_fisico.png" alt="Mecanismo Fisico" width="600">
-  <p><i>Figura 9: Prototipo final impreso en 3D con sistema de adquisición de datos integrado.</i></p>
+  <p><i>Figura 9: Prototipo final impreso en 3D.</i></p>
 </div>
 
 ### Ajuste de Tolerancias y Montaje
