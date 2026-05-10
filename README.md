@@ -23,8 +23,8 @@ Se realizó el modelado tridimensional y el análisis de movimiento del mecanism
 ### Referencias de Diseño
 Para el desarrollo del modelo en SolidWorks, se tomaron como base metodológica los siguientes recursos:
 
-* **Análisis Cinemático - Referencia 1:** [Nombre del Video 1](URL_VIDEO_1)
-* **Análisis Cinemático - Referencia 2:** [Nombre del Video 2](URL_VIDEO_2)
+* **Análisis Cinemático - Referencia 1:** [Mecanismo biela - manivela - corredera | Análisis cinemático | SolidWorks](https://youtu.be/T1xOfZmbcS4)
+* **Análisis Cinemático - Referencia 2:** [Simulación de movimiento en Solidworks. Mecanismo biela-manivela](https://youtu.be/_ggUQRI91M0?si=aOPVly7H2sfQ7lVz)
 
 ### Simulación en Autodesk Inventor
 Se contó con una simulación base configurada a una velocidad angular de **150 RPM (942 deg/s)**, cortesía del **Prof. Efraín Terán**. A partir de este modelo, se obtuvieron las curvas de aceleración características para el punto central de la biela.
