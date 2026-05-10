@@ -1,5 +1,5 @@
 # Diseño e Implementación de un Mecanismo Biela-Manivela-Corredera Impreso en 3D con Adquisicion de Datos
-Diseño, impresión 3D y análisis cinemático de un mecanismo biela-manivela utilizando Arduino (acelerometría) y software de análisis de video para la validación de curvas de velocidad y aceleración.
+Diseño, impresión 3D y análisis cinemático de un mecanismo biela-manivela utilizando Arduino (acelerometría) y software de análisis de video (tracker) para la validación de curvas de velocidad y aceleración.
 
 # Análisis Dinámico de un Mecanismo Biela-Manivela-Corredera en 3D
 
@@ -16,20 +16,25 @@ Es un mecanismo de cuatro barras donde uno de los eslabones (la corredera) tiene
 2.  **Biela:** El eslabón que conecta la manivela con la corredera.
 3.  **Corredera:** El eslabón que realiza el movimiento de traslación lineal.
 
-## 2. Modelado y Simulación en SolidWorks
+## 2. Modelado y Simulación Cinemática
 
-Como etapa previa a la fabricación física, se realizó el modelado tridimensional y la simulación cinemática del mecanismo utilizando **SolidWorks**. Esta fase fue fundamental para asegurar la viabilidad del diseño antes de la impresión 3D.
+Se realizó el modelado tridimensional y el análisis de movimiento del mecanismo. Esta fase permitió validar el comportamiento dinámico y ajustar las medidas de los eslabones.
 
-### Referencias de Diseño y Metodología
-Para el desarrollo del modelo, se tomaron como base metodológica dos análisis cinemáticos de referencia. Estos recursos fueron esenciales para el ajuste de medidas y la comprensión de las restricciones de movimiento:
+### Referencias de Diseño
+Para el desarrollo del modelo en SolidWorks, se tomaron como base metodológica los siguientes recursos:
 
-* **Video Guía 1:** [Mecanismo biela - manivela - corredera | Análisis cinemático | SolidWorks](https://youtu.be/6QLbw1xS8sg?si=KsOmOA9TbFXreo4o)
-* **Video Guía 2:** [Simulación de movimiento en Solidworks. Mecanismo biela-manivela](https://youtu.be/_ggUQRI91M0?si=5zGyvBaKSrtSLi-u).
+* **Análisis Cinemático - Referencia 1:** [Nombre del Video 1](URL_VIDEO_1)
+* **Análisis Cinemático - Referencia 2:** [Nombre del Video 2](URL_VIDEO_2)
 
-### Simulación Cinemática
-Se ejecutó un estudio de movimiento (*Motion Study*) en el software para obtener las curvas teóricas de referencia:
-1.  **Velocidad Lineal:** Observando el comportamiento del desplazamiento de la corredera.
-2.  **Aceleración:** Identificando los puntos de máxima inercia para su posterior contraste experimental.
+### Simulación en Autodesk Inventor
+Se contó con una simulación base configurada a una velocidad angular de **150 RPM (942 deg/s)**, cortesía del **Prof. Efraín Terán**. A partir de este modelo, se obtuvieron las curvas de aceleración características para el punto central de la biela.
+
+> **Nota aclaratoria:** La simulación original se desarrolló con dimensiones menores a las del prototipo final impreso en 3D. Sin embargo, se mantiene la orientación y tendencia de las curvas cinemáticas como patrón de comparación para las pruebas experimentales.
+
+### Resultados Esperados
+A través de estas simulaciones se definieron los patrones de referencia para:
+1.  **Velocidad Angular**
+2.  **Aceleración** 
 
 ## 3. Metodología Experimental
 
