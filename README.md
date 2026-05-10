@@ -47,6 +47,42 @@ A través de estas simulaciones se definieron los patrones de referencia para:
 1.  **Velocidad Angular**
 2.  **Aceleración** 
 
+## 3. Fabricación e Impresión 3D
+
+En esta sección se detallan las consideraciones tomadas para la materialización física del mecanismo. El diseño original fue escalado y modificado para asegurar la funcionalidad mecánica y la facilidad de montaje.
+
+### Archivos de Diseño (CAD)
+Los archivos necesarios para la fabricación y edición se encuentran en la carpeta `/cad` del repositorio, organizados de la siguiente manera:
+
+* **Formatos Originales:** Archivos de pieza y ensamble en **SolidWorks 2025**.
+* **Formatos de Intercambio (.STEP):** Archivos compatibles con otros softwares de CAD como **Autodesk Inventor**, facilitando su uso académico.
+
+<div align="center">
+  <img src="./img/ensamblaje_original.png" alt="Ensamblaje Original en SolidWorks" width="600">
+  <p><i>Figura 3: Vista del ensamblaje original diseñado en SolidWorks 2025.</i></p>
+</div>
+
+* **Archivos Optimizados:** Se incluyen las versiones finales de las piezas donde se aplicaron ajustes de tolerancias para garantizar el acoplamiento real tras la impresión.
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="./img/pieza_biela.png" width="200"><br><b>Biela Optimizada</b></td>
+    <td align="center"><img src="./img/pieza_manivela.png" width="200"><br><b>Manivela</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./img/pieza_corredera.png" width="200"><br><b>Corredera/Pistón</b></td>
+    <td align="center"><img src="./img/piezas_adicionales.png" width="200"><br><b>Pernos y Pines</b></td>
+  </tr>
+</table>
+
+### Ajuste de Tolerancias y Montaje
+Un aspecto crítico del proyecto fue el ajuste de las dimensiones de los agujeros y ejes para permitir una articulación fluida. 
+
+> **Nota técnica sobre impresión 3D:** Debido a las variaciones en la precisión de las impresoras 3D (contracción del material y resolución de ejes), las dimensiones de los acoples fueron optimizadas mediante un proceso de **prueba y error**. 
+> 
+> * Se realizaron múltiples iteraciones de impresión para ajustar los diámetros internos de los alojamientos de los pasadores.
+> * Se recomienda al usuario verificar la calibración de su impresora antes de proceder con la fabricación completa.
+
 ## 3. Metodología Experimental
 
 Para validar el comportamiento del mecanismo impreso en 3D, se utilizaron dos métodos de adquisición de datos:
