@@ -23,7 +23,7 @@ Se realizó el modelado tridimensional y el análisis de movimiento del mecanism
 ### Referencias de Diseño
 Para el desarrollo del modelo en SolidWorks, se tomaron como base metodológica los siguientes recursos:
 
-* **Análisis Cinemático - Referencia 1:** [Mecanismo biela - manivela - corredera | Análisis cinemático | SolidWorks](https://youtu.be/T1xOfZmbcS4)
+* **Análisis Cinemático - Referencia 1:** [Mecanismo biela - manivela - corredera | Análisis cinemático | SolidWorks](https://youtu.be/6QLbw1xS8sg?si=8fuSzFIXMK4U_QsU)
 * **Análisis Cinemático - Referencia 2:** [Simulación de movimiento en Solidworks. Mecanismo biela-manivela](https://youtu.be/_ggUQRI91M0?si=aOPVly7H2sfQ7lVz)
 
 ### Simulación en Autodesk Inventor
