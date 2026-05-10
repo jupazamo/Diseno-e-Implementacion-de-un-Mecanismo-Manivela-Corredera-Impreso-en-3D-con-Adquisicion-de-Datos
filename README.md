@@ -43,7 +43,7 @@ A través de estas simulaciones se definieron los patrones de referencia para:
 
 
 <div align="center">
-  <img src="./img/Grafica_Aceleracion_2" alt="Gráfica de Aceleración 2 - Simulación Inventor" width="400">
+  <img src="./img/Grafica_Aceleracion_2.png" alt="Gráfica de Aceleración 2 - Simulación Inventor" width="400">
   <p><i>Figura 2: Curvas de aceleración del punto central de la biela (Referencia: Prof. Efraín Terán).</i></p>
 </div>
 
