@@ -34,7 +34,6 @@ Se contó con una simulación base configurada a una velocidad angular de **150 
   <p><i>Figura 1: Curvas de aceleración del punto central de la biela (Referencia: Prof. Efraín Terán).</i></p>
 </div>
 
-
 <div align="center">
   <img src="./img/Grafica_Aceleracion_2.png" alt="Gráfica de Aceleración 2 - Simulación Inventor" width="400">
   <p><i>Figura 2: Curvas de aceleración del punto central de la biela (Referencia: Prof. Efraín Terán).</i></p>
@@ -64,16 +63,39 @@ Los archivos necesarios para la fabricación y edición se encuentran en la carp
 
 * **Archivos Optimizados:** Se incluyen las versiones finales de las piezas donde se aplicaron ajustes de tolerancias para garantizar el acoplamiento real tras la impresión.
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="./img/pieza_biela.png" width="200"><br><b>Biela Optimizada</b></td>
-    <td align="center"><img src="./img/pieza_manivela.png" width="200"><br><b>Manivela</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="./img/pieza_corredera.png" width="200"><br><b>Corredera/Pistón</b></td>
-    <td align="center"><img src="./img/piezas_adicionales.png" width="200"><br><b>Pernos y Pines</b></td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./img/Manivela.png" alt="Manivela" width="400">
+  <p><i>Figura 4: Manivela optimizada para acople con motor.</i></p>
+</div>
+
+<div align="center">
+  <img src="./img/Biela.png" alt="Biela" width="400">
+  <p><i>Figura 5: Biela con ajuste de tolerancia en los nodos de articulación.</i></p>
+</div>
+
+<div align="center">
+  <img src="./img/Corredera.png" alt="Corredera" width="400">
+  <p><i>Figura 6: Corredera (Pistón) diseñada para deslizamiento de baja fricción.</i></p>
+</div>
+
+<div align="center">
+  <img src="./img/Base_para_motor.png" alt="Base para motor" width="400">
+  <p><i>Figura 7: Soporte estructural para el motorreductor/actuador.</i></p>
+</div>
+
+<div align="center">
+  <img src="./img/Base_para_corredera.png" alt="Base para corredera" width="400">
+  <p><i>Figura 8: Guía lineal para el desplazamiento de la corredera.</i></p>
+</div>
+
+### Resultado Final (Prototipo Físico)
+
+Tras el proceso de impresión y ajuste manual, este es el resultado del mecanismo ensamblado y funcional:
+
+<div align="center">
+  <img src="./img/resultado_fisico.png" alt="Mecanismo Fisico" width="600">
+  <p><i>Figura 9: Prototipo final impreso en 3D con sistema de adquisición de datos integrado.</i></p>
+</div>
 
 ### Ajuste de Tolerancias y Montaje
 Un aspecto crítico del proyecto fue el ajuste de las dimensiones de los agujeros y ejes para permitir una articulación fluida. 
