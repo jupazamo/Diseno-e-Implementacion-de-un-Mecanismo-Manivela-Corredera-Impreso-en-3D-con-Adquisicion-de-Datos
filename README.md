@@ -29,13 +29,6 @@ Para el desarrollo del modelo en SolidWorks, se tomaron como base metodológica 
 ### Simulación en Autodesk Inventor
 Se contó con una simulación base configurada a una velocidad angular de **150 RPM (942 deg/s)**, cortesía del **Prof. Efraín Terán**. A partir de este modelo, se obtuvieron las curvas de aceleración características para el punto central de la biela.
 
-> **Nota aclaratoria:** La simulación original se desarrolló con dimensiones menores a las del prototipo final impreso en 3D. Sin embargo, se mantiene la orientación y tendencia de las curvas cinemáticas como patrón de comparación para las pruebas experimentales.
-
-### Resultados Esperados
-A través de estas simulaciones se definieron los patrones de referencia para:
-1.  **Velocidad Angular**
-2.  **Aceleración** 
-
 <div align="center">
   <img src="./img/grafica_aceleracion_1.png" alt="Gráfica de Aceleracion 1 - Simulación Inventor" width="400">
   <p><i>Figura 1: Curvas de aceleración del punto central de la biela (Referencia: Prof. Efraín Terán).</i></p>
@@ -46,6 +39,13 @@ A través de estas simulaciones se definieron los patrones de referencia para:
   <img src="./img/Grafica_Aceleracion_2.png" alt="Gráfica de Aceleración 2 - Simulación Inventor" width="400">
   <p><i>Figura 2: Curvas de aceleración del punto central de la biela (Referencia: Prof. Efraín Terán).</i></p>
 </div>
+
+> **Nota aclaratoria:** La simulación original se desarrolló con dimensiones menores a las del prototipo final impreso en 3D. Sin embargo, se mantiene la orientación y tendencia de las curvas cinemáticas como patrón de comparación para las pruebas experimentales.
+
+### Resultados Esperados
+A través de estas simulaciones se definieron los patrones de referencia para:
+1.  **Velocidad Angular**
+2.  **Aceleración** 
 
 ## 3. Metodología Experimental
 
