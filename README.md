@@ -62,7 +62,7 @@ Los archivos necesarios para la fabricación y edición se encuentran en la carp
 </div>
 
 ### Archivos Optimizados (Versión Final)
-Se incluyen las versiones finales de las piezas, las cuales han sido sometidas a un proceso de ajuste de tolerancias para garantizar un acoplamiento mecánico real tras la impresión 3D. 
+Se incluyen las versiones finales de las piezas.
 
 Para asegurar la compatibilidad y facilitar futuras modificaciones, cada componente optimizado se encuentra disponible en dos formatos dentro de la carpeta `/cad/optimizados`:
 
