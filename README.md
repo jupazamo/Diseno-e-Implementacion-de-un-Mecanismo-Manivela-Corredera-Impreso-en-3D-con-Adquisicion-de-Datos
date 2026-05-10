@@ -23,8 +23,8 @@ Como etapa previa a la fabricación física, se realizó el modelado tridimensio
 ### Referencias de Diseño y Metodología
 Para el desarrollo del modelo, se tomaron como base metodológica dos análisis cinemáticos de referencia. Estos recursos fueron esenciales para el ajuste de medidas y la comprensión de las restricciones de movimiento:
 
-* **Video Guía 1:** [Mecanismo biela - manivela - corredera | Análisis cinemático | SolidWorks](https://youtu.be/6QLbw1xS8sg?si=KsOmOA9TbFXreo4o) - Análisis de ensamblaje y relaciones de posición.
-* **Video Guía 2:** [Simulación de movimiento en Solidworks. Mecanismo biela-manivela](https://youtu.be/_ggUQRI91M0?si=5zGyvBaKSrtSLi-u) - Simulación de estudio de movimiento y obtención de gráficas.
+* **Video Guía 1:** [Mecanismo biela - manivela - corredera | Análisis cinemático | SolidWorks](https://youtu.be/6QLbw1xS8sg?si=KsOmOA9TbFXreo4o)
+* **Video Guía 2:** [Simulación de movimiento en Solidworks. Mecanismo biela-manivela](https://youtu.be/_ggUQRI91M0?si=5zGyvBaKSrtSLi-u).
 
 ### Simulación Cinemática
 Se ejecutó un estudio de movimiento (*Motion Study*) en el software para obtener las curvas teóricas de referencia:
