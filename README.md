@@ -164,7 +164,7 @@ Se desarrollaron scripts para recibir y procesar los datos CSV en vivo.
 ### 5. Resultados y Análisis
 
 #### Funcionamiento en Tiempo Real
-Vídeo del mecanismo operando a 150 RPM con la telemetría activa:
+Vídeo del mecanismo operando con la telemetría activa:
 
 <div align="center">
   <a href="URL_DE_TU_VIDEO">
