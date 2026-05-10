@@ -111,10 +111,72 @@ Un aspecto crítico del proyecto fue el ajuste de las dimensiones de los agujero
 > * Se realizaron múltiples iteraciones de impresión para ajustar los diámetros internos de los alojamientos de los pasadores.
 > * Se recomienda al usuario verificar la calibración de su impresora antes de proceder con la fabricación completa.
 
-## 3. Metodología Experimental
+## 4. Metodología Experimental: Adquisición de Datos
 
-Para validar el comportamiento del mecanismo impreso en 3D, se utilizaron dos métodos de adquisición de datos:
+Para validar el comportamiento del mecanismo impreso en 3D, se implementó un sistema de adquisición de datos dual que permite contrastar los resultados físicos con los modelos teóricos.
 
-* **Acelerometría (Hardware):** Un sensor acelerómetro conectado a un **Arduino Uno** montado sobre la corredera para medir las variaciones de velocidad y aceleración en tiempo real.
-* **Análisis de Video (Software):** Procesamiento de imágenes a partir de un video del mecanismo en funcionamiento para extraer las curvas cinemáticas mediante el seguimiento de puntos de referencia.
+### 4.1. Acelerometría (Hardware)
 
+Se utilizó un sistema electrónico basado en hardware abierto para medir las variaciones de aceleración de la corredera en tiempo real.
+
+#### Materiales Utilizados
+* **Microcontrolador:** Arduino UNO.
+* **Sensor:** IMU LSM6DS3 (Acelerómetro y Giróscopo).
+* **Actuador:** Motorreductor con Encoder integrado.
+
+<div align="center">
+  <img src="./img/arduino_uno.jpg" alt="Arduino UNO" width="200">
+  <img src="./img/acelerometro.jpg" alt="LSM6DS3" width="200">
+  <img src="./img/motor_reductor_con_encoder.jpg" alt="LSM6DS3" width="200">
+  <p><i>Figura 10: Componentes electrónicos principales para la captura de datos.</i></p>
+</div>
+
+#### Conexión del Motor y Encoder
+El motor cuenta con un encoder integrado para el monitoreo de la velocidad angular. A continuación se detalla la configuración de pines:
+
+<div align="center">
+  <img src="./img/pines_motor_encoder.png" alt="Pines Motor Encoder" width="500">
+  <p><i>Figura 11: Diagrama de pines y conexiones del motor con encoder.</i></p>
+</div>
+
+---
+
+### 4.2. Firmware y Software de Procesamiento
+
+El sistema se divide en una etapa de captura (Arduino) y una de procesamiento/visualización (MATLAB/Python). Los códigos se encuentran en la carpeta `/src`.
+
+#### A. Adquisición IMU con Arduino (`/src/arduino`)
+El programa utiliza el sensor **LSM6DS3** para adquirir la velocidad angular (Z) y aceleración (X, Y, Z).
+* **Calibración:** Realiza un ajuste inicial de *bias* del giróscopo para reducir la deriva.
+* **Muestreo:** Frecuencia aproximada de **200 Hz**.
+* **Salida:** Formato CSV vía serial (115200 baudios): `t_ms, gz_dps, ax_g, ay_g, az_g`.
+
+#### B. Visualización en Tiempo Real (`/src/matlab` y `/src/python`)
+Se desarrollaron scripts para recibir y procesar los datos CSV en vivo.
+* **Conversión de Unidades:** De $g$ a $mm/s^2$ (utilizando $1g = 9806.65 mm/s^2$).
+* **Compensación Dinámica:** Aplicación de compensación gravitacional en el eje Y ($a_{lineal} = a_{medida} - g$).
+* **MATLAB (v. 2025):** Utiliza `serialport` y `animatedline` para gráficas dinámicas.
+    * *Nota:* Debido al uso de la versión 2025, versiones anteriores podrían requerir ajustes de compatibilidad en la comunicación serial.
+* **Python:** Alternativa **Open Source** que utiliza `pyserial`, `numpy` y `pyqtgraph` para un procesamiento eficiente sin requerir licencias pagadas.
+
+---
+
+### 5. Resultados y Análisis
+
+#### Funcionamiento en Tiempo Real
+Vídeo del mecanismo operando a 150 RPM con la telemetría activa:
+
+<div align="center">
+  <a href="URL_DE_TU_VIDEO">
+    <img src="./img/miniatura_video.png" alt="Video de Funcionamiento" width="600">
+  </a>
+  <p><i>Video 1: Demostración del prototipo y captura de señales en vivo.</i></p>
+</div>
+
+#### Comparativa de Gráficas
+A continuación se presentan las curvas de aceleración obtenidas experimentalmente frente a las teóricas de la simulación:
+
+<div align="center">
+  <img src="./img/grafica_resultados_final.png" alt="Gráficas de Resultados" width="600">
+  <p><i>Figura 12: Resultados finales - Comparativa de Aceleración vs Tiempo.</i></p>
+</div>
