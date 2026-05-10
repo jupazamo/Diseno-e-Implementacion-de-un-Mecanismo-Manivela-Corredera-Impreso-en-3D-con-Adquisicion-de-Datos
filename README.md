@@ -161,7 +161,7 @@ Se desarrollaron scripts para recibir y procesar los datos CSV en vivo.
 
 ---
 
-### 5. Resultados y Análisis
+### 4.3. Resultados y Análisis
 
 #### Funcionamiento en Tiempo Real
 Vídeo del mecanismo operando con la telemetría activa:
@@ -179,4 +179,43 @@ A continuación se presentan las curvas de aceleración obtenidas experimentalme
 <div align="center">
   <img src="./img/grafica_resultados_final.png" alt="Gráficas de Resultados" width="600">
   <p><i>Figura 12: Resultados finales - Comparativa de Aceleración vs Tiempo.</i></p>
+</div>
+
+### 4.4. Análisis de Video (Software - Tracker)
+
+Como segundo método de validación, se utilizó el software de código abierto **Tracker**, una herramienta de análisis de video y modelado físico construida sobre la plataforma Java Open Source Physics (OSP).
+
+#### Herramientas y Recursos
+* **Software:** [Tracker Video Analysis and Modeling Tool](https://physlets.org/tracker/)
+* **Metodología de Análisis:** Seguimiento de trayectoria (*Point Mass*) sobre un punto de contraste en la corredera y la biela.
+* **Recursos de Referencia:**
+    * [Tutorial Base (Péndulo)](https://www.youtube.com/watch?v=l8HXMcte-xs)
+    * [Playlist Guía - Prof. Carlos Cuenca](https://youtube.com/playlist?list=PL3bRjIIlh87pTWCi-JaqFhHVurVqUTbHe&si=bdEIOeP9XlYolLrk)
+
+#### Procedimiento de Análisis
+1. **Calibración:** Se estableció una vara de calibración en el video basada en una dimensión conocida del mecanismo impreso (longitud de la bancada).
+2. **Definición de Ejes:** Se situó el origen de coordenadas en el centro de rotación de la manivela.
+3. **Tracking:** Se realizó un seguimiento cuadro a cuadro del **punto central de la biela**.
+4. **Derivación Numérica:** El software calculó automáticamente la velocidad y aceleración a partir de los datos de posición.
+
+---
+
+## 4.5. Resultados Finales y Comparativa
+
+### Video del Mecanismo en Funcionamiento
+El siguiente video muestra el mecanismo en operación, el cual fue utilizado para el procesamiento en Tracker:
+
+<div align="center">
+  <a href="URL_DE_TU_VIDEO_FUNCIONAMIENTO">
+    <img src="./img/miniatura_tracker.png" alt="Video Funcionamiento Tracker" width="600">
+  </a>
+  <p><i>Video 2: Captura del mecanismo para análisis cinemático por video.</i></p>
+</div>
+
+### Gráficas Resultantes (Tracker)
+A continuación se presentan las gráficas de cinemática generadas por el software Tracker, donde se observa el comportamiento del desplazamiento, velocidad y aceleración de la biela:
+
+<div align="center">
+  <img src="./img/graficas_tracker.png" alt="Gráficas Tracker" width="600">
+  <p><i>Figura 13: Curvas de posición, velocidad y aceleración obtenidas mediante análisis de video.</i></p>
 </div>
