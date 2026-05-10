@@ -79,12 +79,12 @@ Los archivos necesarios para la fabricación y edición se encuentran en la carp
 </div>
 
 <div align="center">
-  <img src="./img/Base_para_motor.png" alt="Base para motor" width="400">
+  <img src="./img/Base para motor.png" alt="Base para motor" width="400">
   <p><i>Figura 7: Soporte estructural para el motorreductor/actuador.</i></p>
 </div>
 
 <div align="center">
-  <img src="./img/Base_para_corredera.png" alt="Base para corredera" width="400">
+  <img src="./img/Base para corredera.png" alt="Base para corredera" width="400">
   <p><i>Figura 8: Guía lineal para el desplazamiento de la corredera.</i></p>
 </div>
 
