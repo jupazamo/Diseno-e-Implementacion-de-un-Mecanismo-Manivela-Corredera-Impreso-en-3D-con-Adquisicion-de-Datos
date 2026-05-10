@@ -61,7 +61,13 @@ Los archivos necesarios para la fabricación y edición se encuentran en la carp
   <p><i>Figura 3: Vista del ensamblaje original diseñado en SolidWorks 2025.</i></p>
 </div>
 
-* **Archivos Optimizados:** Se incluyen las versiones finales de las piezas donde se aplicaron ajustes de tolerancias para garantizar el acoplamiento real tras la impresión.
+### Archivos Optimizados (Versión Final)
+Se incluyen las versiones finales de las piezas, las cuales han sido sometidas a un proceso de ajuste de tolerancias para garantizar un acoplamiento mecánico real tras la impresión 3D. 
+
+Para asegurar la compatibilidad y facilitar futuras modificaciones, cada componente optimizado se encuentra disponible en dos formatos dentro de la carpeta `/cad/optimizados`:
+
+* **Formato Nativo (.SLDPRT):** Archivos originales de **SolidWorks 2025**.
+* **Formato de Intercambio (.STEP):** Archivos universales compatibles con **Autodesk Inventor**, Fusion 360 y otros sistemas CAD.
 
 <div align="center">
   <img src="./img/Manivela.png" alt="Manivela" width="400">
