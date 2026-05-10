@@ -7,7 +7,7 @@ Este repositorio contiene el desarrollo, fabricación y validación experimental
 
 ## 1. Fundamento Teórico
 
-Según la bibliografía base de la materia (Norton, Shigley y Mott), el mecanismo de **biela-manivela-corredera** es un sistema de eslabonamiento diseñado para transformar el movimiento circular en movimiento lineal alternativo o viceversa.
+El mecanismo de **biela-manivela-corredera** es un sistema de eslabonamiento diseñado para transformar el movimiento circular en movimiento lineal alternativo o viceversa.
 
 ### Definición Técnica
 Es un mecanismo de cuatro barras donde uno de los eslabones (la corredera) tiene una articulación de pasador en un extremo y una articulación de deslizamiento (prismática) respecto al eslabón fijo. En este proyecto, el mecanismo se compone de:
@@ -16,18 +16,25 @@ Es un mecanismo de cuatro barras donde uno de los eslabones (la corredera) tiene
 2.  **Biela:** El eslabón que conecta la manivela con la corredera.
 3.  **Corredera:** El eslabón que realiza el movimiento de traslación lineal.
 
+## 2. Modelado y Simulación en SolidWorks
 
-## 2. Metodología Experimental
+Como etapa previa a la fabricación física, se realizó el modelado tridimensional y la simulación cinemática del mecanismo utilizando **SolidWorks**. Esta fase fue fundamental para asegurar la viabilidad del diseño antes de la impresión 3D.
+
+### Referencias de Diseño y Metodología
+Para el desarrollo del modelo, se tomaron como base metodológica dos análisis cinemáticos de referencia. Estos recursos fueron esenciales para el ajuste de medidas y la comprensión de las restricciones de movimiento:
+
+* **Video Guía 1:** [Mecanismo biela - manivela - corredera | Análisis cinemático | SolidWorks]([URL_DEL_VIDEO_1](https://youtu.be/6QLbw1xS8sg?si=KsOmOA9TbFXreo4o)) - Análisis de ensamblaje y relaciones de posición.
+* **Video Guía 2:** [Simulación de movimiento en Solidworks. Mecanismo biela-manivela]([URL_DEL_VIDEO_2](https://youtu.be/_ggUQRI91M0?si=5zGyvBaKSrtSLi-u)) - Simulación de estudio de movimiento y obtención de gráficas.
+
+### Simulación Cinemática
+Se ejecutó un estudio de movimiento (*Motion Study*) en el software para obtener las curvas teóricas de referencia:
+1.  **Velocidad Lineal:** Observando el comportamiento del desplazamiento de la corredera.
+2.  **Aceleración:** Identificando los puntos de máxima inercia para su posterior contraste experimental.
+
+## 3. Metodología Experimental
 
 Para validar el comportamiento del mecanismo impreso en 3D, se utilizaron dos métodos de adquisición de datos:
 
 * **Acelerometría (Hardware):** Un sensor acelerómetro conectado a un **Arduino Uno** montado sobre la corredera para medir las variaciones de velocidad y aceleración en tiempo real.
 * **Análisis de Video (Software):** Procesamiento de imágenes a partir de un video del mecanismo en funcionamiento para extraer las curvas cinemáticas mediante el seguimiento de puntos de referencia.
 
-## 3. Bibliografía
-
-Este proyecto se apoya en los siguientes textos guía:
-
-* **Norton, R. L. (2011).** *Diseño de máquinas: Un enfoque integrado*. 4ta Edición. Pearson Educación.
-* **Budynas, R. G., & Nisbett, J. K. (2015).** *Shigley's Mechanical Engineering Design*. 10th Edition. McGraw-Hill Education.
-* **Mott, R. L. (2006).** *Diseño de elementos de máquinas*. 4ta Edición. Pearson Educación.
