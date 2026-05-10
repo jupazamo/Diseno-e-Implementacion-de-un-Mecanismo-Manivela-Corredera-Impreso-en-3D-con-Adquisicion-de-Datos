@@ -36,6 +36,16 @@ A través de estas simulaciones se definieron los patrones de referencia para:
 1.  **Velocidad Angular**
 2.  **Aceleración** 
 
+<div align="center">
+  <img src="./img/grafica_aceleracion_1.png" alt="Gráfica de Aceleracion 1 - Simulación Inventor" width="400">
+  <p><i>Figura 1: Curvas de velocidad obtenidas mediante simulación en Autodesk Inventor.</i></p>
+</div>
+
+<div align="center">
+  <img src="./img/grafica_aceleracion_2" alt="Gráfica de Aceleración 2 - Simulación Inventor" width="400">
+  <p><i>Figura 2: Curvas de aceleración del punto central de la biela (Referencia: Prof. Efraín Terán).</i></p>
+</div>
+
 ## 3. Metodología Experimental
 
 Para validar el comportamiento del mecanismo impreso en 3D, se utilizaron dos métodos de adquisición de datos:
