@@ -248,3 +248,12 @@ A continuación se presentan las gráficas de cinemática generadas por el softw
   <img src="./img/Velocidad Aceleración angular.png" alt="Gráficas Tracker" width="600">
   <p><i>Figura 16: Curvas de velocidad y aceleración angular obtenidas mediante análisis de video.</i></p>
 </div>
+
+### 4.6. Recursos para Análisis desde Cero
+Para facilitar la verificación de los resultados o permitir que otros estudiantes realicen su propia práctica de análisis cinemático, se han incluido los archivos fuente originales:
+
+* **Video Original:** `Mecanismo_Funcionamiento_Tracker.mp4` (Video utilizado para el seguimiento). 
+> **Nota aclaratoria:** La longitud de referencia que se muestra en el video es de 0.170 m, pueden usar la misma para su respectivo análisis. 
+* **Archivo de Proyecto:** `Mecanismo Tracker.trz` (Contiene la calibración, ejes y puntos de masa ya configurados).
+
+---
