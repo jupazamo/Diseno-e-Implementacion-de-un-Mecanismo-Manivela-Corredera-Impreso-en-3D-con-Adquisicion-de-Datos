@@ -230,6 +230,21 @@ El siguiente video muestra el mecanismo en operación, el cual fue utilizado par
 A continuación se presentan las gráficas de cinemática generadas por el software Tracker, donde se observa el comportamiento del desplazamiento, velocidad y aceleración de la biela:
 
 <div align="center">
-  <img src="./img/graficas_tracker.png" alt="Gráficas Tracker" width="600">
-  <p><i>Figura 13: Curvas de posición, velocidad y aceleración obtenidas mediante análisis de video.</i></p>
+  <img src="./img/Posicion x e y.png" alt="Gráficas Tracker" width="600">
+  <p><i>Figura 13: Curvas de posición obtenidas mediante análisis de video.</i></p>
+</div>
+
+<div align="center">
+  <img src="./img/Velocidad x e y.png" alt="Gráficas Tracker" width="600">
+  <p><i>Figura 14: Curvas de velocidad obtenidas mediante análisis de video.</i></p>
+</div>
+
+<div align="center">
+  <img src="./img/Aceleración x e y.png" alt="Gráficas Tracker" width="600">
+  <p><i>Figura 15: Curvas de aceleración obtenidas mediante análisis de video.</i></p>
+</div>
+
+<div align="center">
+  <img src="./img/Velocidad Aceleración angular.png" alt="Gráficas Tracker" width="600">
+  <p><i>Figura 16: Curvas de velocidad y aceleración angular obtenidas mediante análisis de video.</i></p>
 </div>
