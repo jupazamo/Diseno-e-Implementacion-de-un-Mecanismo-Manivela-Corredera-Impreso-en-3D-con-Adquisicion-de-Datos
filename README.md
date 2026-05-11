@@ -202,7 +202,7 @@ Como segundo método de validación, se utilizó el software de código abierto 
 
 #### Herramientas y Recursos
 * **Software:** [Tracker Video Analysis and Modeling Tool](https://physlets.org/tracker/)
-* **Metodología de Análisis:** Seguimiento de trayectoria (*Point Mass*) sobre un punto de contraste en la corredera y la biela.
+* **Metodología de Análisis:** Seguimiento de trayectoria (*Point Mass*) sobre un punto en la biela.
 * **Recursos de Referencia:**
     * [Tutorial Base (Péndulo)](https://www.youtube.com/watch?v=l8HXMcte-xs)
     * [Playlist Guía - Prof. Carlos Cuenca](https://youtube.com/playlist?list=PL3bRjIIlh87pTWCi-JaqFhHVurVqUTbHe&si=bdEIOeP9XlYolLrk)
