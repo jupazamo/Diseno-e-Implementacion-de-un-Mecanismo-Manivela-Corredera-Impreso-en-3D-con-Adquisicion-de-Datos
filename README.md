@@ -108,7 +108,7 @@ El siguiente video muestra el mecanismo en operación .
 
 <div align="center">
   <a href="https://youtu.be/3m06ar881s8">
-    <img src="Mecanismo Funcionando Miniatura.jpg" alt="Haz clic para ver el video" width="600">
+    <img src="./img/Mecanismo Funcionando Miniatura.jpg" alt="Haz clic para ver el video" width="600">
   </a>
   <p><i>Video 1: Funcionamiento del mecanismo a máxima velocidad utilizando un puente H.</i></p>
 </div>
