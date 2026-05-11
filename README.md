@@ -193,6 +193,12 @@ A continuación se presentan las curvas de velocidad aceleración obtenidas expe
   <p><i>Figura 12: Graficas de resultados obtenidas mediante IMU y Arduino UNO</i></p>
 </div>
 
+#### Datos Experimentales (Raw Data)
+Para fines de análisis detallado posterior, se han incluido los archivos de datos brutos obtenidos directamente del puerto serial:
+
+* **Archivo:** `/data/datos_acelerometro.csv`
+* **Formato:** CSV (Valores separados por comas) con la estructura `t_s,gz_filt_dps,ax_filt_mms2,ay_filt_mms2,az_filt_mms2,ax_raw_mms2,ay_raw_mms2,az_raw_mms2`.
+
 ---
 
 ### 4.4. Análisis de Video (Software - Tracker)
