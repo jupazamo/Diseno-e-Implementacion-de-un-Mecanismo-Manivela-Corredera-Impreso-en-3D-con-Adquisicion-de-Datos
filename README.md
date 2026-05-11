@@ -220,7 +220,7 @@ Como segundo método de validación, se utilizó el software de código abierto 
 El siguiente video muestra el mecanismo en operación, el cual fue utilizado para el procesamiento en Tracker:
 
 <div align="center">
-  <a href="URL_DE_TU_VIDEO_FUNCIONAMIENTO">
+  <a href="https://youtu.be/3AulUZqwMnk">
     <img src="./img/miniatura_tracker.png" alt="Video Funcionamiento Tracker" width="600">
   </a>
   <p><i>Video 3: Captura del mecanismo para análisis cinemático por video.</i></p>
