@@ -103,6 +103,20 @@ Tras el proceso de impresión y ajuste manual, este es el resultado del mecanism
   <p><i>Figura 9: Prototipo final impreso en 3D.</i></p>
 </div>
 
+#### Demostración de Funcionamiento
+El siguiente video muestra el mecanismo en operación .
+
+<div align="center">
+  <a href="https://youtu.be/3m06ar881s8">
+    <img src="Mecanismo Funcionando Miniatura.jpg" alt="Haz clic para ver el video" width="600">
+  </a>
+  <p><i>Video 1: Funcionamiento del mecanismo a máxima velocidad utilizando un puente H.</i></p>
+</div>
+
+> **Nota Técnica sobre el Sistema de Potencia:** > Durante las pruebas se observó que al alimentar el motor a **12 VDC** (su voltaje máximo nominal) a través del puente H, existe una caída de tensión de aproximadamente **2V** inherente al driver. Por lo tanto, la velocidad observada en el video no representa la velocidad máxima teórica del motor. 
+> 
+> **Recomendación:** Para futuros ensayos que requieran variar la velocidad angular de forma precisa o alcanzar el límite nominal, se recomienda el uso de una **fuente regulable de laboratorio** para compensar las caídas de tensión del circuito de control.
+
 ### Ajuste de Tolerancias y Montaje
 Un aspecto crítico del proyecto fue el ajuste de las dimensiones de los agujeros y ejes para permitir una articulación fluida. 
 
