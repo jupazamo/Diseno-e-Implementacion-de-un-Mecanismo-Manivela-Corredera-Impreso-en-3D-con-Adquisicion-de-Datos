@@ -179,13 +179,13 @@ Se desarrollaron scripts para recibir y procesar los datos CSV en vivo.
 Vídeo del mecanismo operando con la telemetría activa:
 
 <div align="center">
-  <a href="URL_DE_TU_VIDEO">
-    <img src="./img/miniatura_video.png" alt="Video de Funcionamiento" width="600">
+  <a href="https://youtu.be/f9dqSxW6Emg">
+    <img src="./img/Mecanismo con Acelerometro y recopilación de datos.png" alt="Video de Funcionamiento" width="600">
   </a>
   <p><i>Video 2: Demostración del prototipo y captura de señales en vivo.</i></p>
 </div>
 
-#### Comparativa de Gráficas
+#### Gráficas
 A continuación se presentan las curvas de velocidad aceleración obtenidas experimentalmente:
 
 <div align="center">
