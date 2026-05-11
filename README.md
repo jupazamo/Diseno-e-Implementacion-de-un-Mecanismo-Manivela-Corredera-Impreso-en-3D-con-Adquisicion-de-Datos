@@ -168,7 +168,6 @@ El programa utiliza el sensor **LSM6DS3** para adquirir la velocidad angular (Z)
 #### B. Visualización en Tiempo Real (`/src/matlab` y `/src/python`)
 Se desarrollaron scripts para recibir y procesar los datos CSV en vivo.
 * **Conversión de Unidades:** De $g$ a $mm/s^2$ (utilizando $1g = 9806.65 mm/s^2$).
-* **Compensación Dinámica:** Aplicación de compensación gravitacional en el eje Y ($a_{lineal} = a_{medida} - g$).
 * **MATLAB (v. 2025):** Utiliza `serialport` y `animatedline` para gráficas dinámicas.
     * *Nota:* Debido al uso de la versión 2025, versiones anteriores podrían requerir ajustes de compatibilidad en la comunicación serial.
 * **Python:** Alternativa **Open Source** que utiliza `pyserial`, `numpy` y `pyqtgraph` para un procesamiento eficiente sin requerir licencias pagadas.
@@ -188,11 +187,11 @@ Vídeo del mecanismo operando con la telemetría activa:
 </div>
 
 #### Comparativa de Gráficas
-A continuación se presentan las curvas de aceleración obtenidas experimentalmente frente a las teóricas de la simulación:
+A continuación se presentan las curvas de velocidad aceleración obtenidas experimentalmente:
 
 <div align="center">
-  <img src="./img/grafica_resultados_final.png" alt="Gráficas de Resultados" width="600">
-  <p><i>Figura 12: Resultados finales - Comparativa de Aceleración vs Tiempo.</i></p>
+  <img src="./img/Graficas Acelerometro.png" alt="Gráficas de Resultados con IMU" width="600">
+  <p><i>Figura 12: Graficas de resultados obtenidas mediante IMU y Arduino UNO</i></p>
 </div>
 
 ### 4.4. Análisis de Video (Software - Tracker)
