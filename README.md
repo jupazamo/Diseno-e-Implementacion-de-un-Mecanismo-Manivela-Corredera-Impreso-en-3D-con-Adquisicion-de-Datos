@@ -129,6 +129,8 @@ Un aspecto crítico del proyecto fue el ajuste de las dimensiones de los agujero
 
 Para validar el comportamiento del mecanismo impreso en 3D, se implementó un sistema de adquisición de datos dual que permite contrastar los resultados físicos con los modelos teóricos.
 
+---
+
 ### 4.1. Acelerometría (Hardware)
 
 Se utilizó un sistema electrónico basado en hardware abierto para medir las variaciones de aceleración de la corredera en tiempo real.
@@ -153,8 +155,6 @@ El motor cuenta con un encoder integrado para el monitoreo de la velocidad angul
   <p><i>Figura 11: Diagrama de pines y conexiones del motor con encoder.</i></p>
 </div>
 
----
-
 ### 4.2. Firmware y Software de Procesamiento
 
 El sistema se divide en una etapa de captura (Arduino) y una de procesamiento/visualización (MATLAB/Python). Los códigos se encuentran en la carpeta `/src`.
@@ -172,9 +172,8 @@ Se desarrollaron scripts para recibir y procesar los datos CSV en vivo.
     * *Nota:* Debido al uso de la versión 2025, versiones anteriores podrían requerir ajustes de compatibilidad en la comunicación serial.
 * **Python:** Alternativa **Open Source** que utiliza `pyserial`, `numpy` y `pyqtgraph` para un procesamiento eficiente sin requerir licencias pagadas.
 
----
 
-### 4.3. Resultados y Análisis
+### 4.3. Resultados con Acelerometro
 
 #### Funcionamiento en Tiempo Real
 Vídeo del mecanismo operando con la telemetría activa:
@@ -194,6 +193,8 @@ A continuación se presentan las curvas de velocidad aceleración obtenidas expe
   <p><i>Figura 12: Graficas de resultados obtenidas mediante IMU y Arduino UNO</i></p>
 </div>
 
+---
+
 ### 4.4. Análisis de Video (Software - Tracker)
 
 Como segundo método de validación, se utilizó el software de código abierto **Tracker**, una herramienta de análisis de video y modelado físico construida sobre la plataforma Java Open Source Physics (OSP).
@@ -211,9 +212,7 @@ Como segundo método de validación, se utilizó el software de código abierto 
 3. **Tracking:** Se realizó un seguimiento cuadro a cuadro del **punto central de la biela**.
 4. **Derivación Numérica:** El software calculó automáticamente la velocidad y aceleración a partir de los datos de posición.
 
----
-
-## 4.5. Resultados Finales y Comparativa
+### 4.5. Resultados con Tracker
 
 ### Video del Mecanismo en Funcionamiento
 El siguiente video muestra el mecanismo en operación, el cual fue utilizado para el procesamiento en Tracker:
@@ -252,7 +251,7 @@ A continuación se presentan las gráficas de cinemática generadas por el softw
 Para facilitar la verificación de los resultados o permitir que otros estudiantes realicen su propia práctica de análisis cinemático, se han incluido los archivos fuente originales:
 
 * **Video Original:** `Mecanismo_Funcionamiento_Tracker.mp4` (Video utilizado para el seguimiento). 
-> **Nota aclaratoria:** La longitud de referencia que se muestra en el video es de 0.170 m, pueden usar la misma para su respectivo análisis. 
+> **Nota aclaratoria:** La longitud de referencia que se muestra en el video es de 0.170 m, pueden usar la misma referencia para su respectivo análisis. 
 * **Archivo de Proyecto:** `Mecanismo Tracker.trz` (Contiene la calibración, ejes y puntos de masa ya configurados).
 
 ---
