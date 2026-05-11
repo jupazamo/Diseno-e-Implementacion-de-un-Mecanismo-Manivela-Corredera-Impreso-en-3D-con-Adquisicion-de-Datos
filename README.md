@@ -235,7 +235,7 @@ A continuación se presentan las gráficas de cinemática generadas por el softw
 </div>
 
 <div align="center">
-  <img src="./img/Velocidad x e y.png" alt="Gráficas Tracker" width="600">
+  <img src="./img/Velocidad X e Y.png" alt="Gráficas Tracker" width="600">
   <p><i>Figura 14: Curvas de velocidad obtenidas mediante análisis de video.</i></p>
 </div>
 
