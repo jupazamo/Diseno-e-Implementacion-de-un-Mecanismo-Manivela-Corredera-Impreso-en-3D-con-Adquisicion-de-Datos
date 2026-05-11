@@ -41,11 +41,6 @@ Se contó con una simulación base configurada a una velocidad angular de **150 
 
 > **Nota aclaratoria:** La simulación original se desarrolló con dimensiones menores a las del prototipo final impreso en 3D. Sin embargo, se mantiene la orientación y tendencia de las curvas cinemáticas como patrón de comparación para las pruebas experimentales.
 
-### Resultados Esperados
-A través de estas simulaciones se definieron los patrones de referencia para:
-1.  **Velocidad Angular**
-2.  **Aceleración** 
-
 ## 3. Fabricación e Impresión 3D
 
 En esta sección se detallan las consideraciones tomadas para la materialización física del mecanismo. El diseño original fue escalado y modificado para asegurar la funcionalidad mecánica y la facilidad de montaje.
