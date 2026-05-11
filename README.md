@@ -184,7 +184,7 @@ Vídeo del mecanismo operando con la telemetría activa:
   <a href="URL_DE_TU_VIDEO">
     <img src="./img/miniatura_video.png" alt="Video de Funcionamiento" width="600">
   </a>
-  <p><i>Video 1: Demostración del prototipo y captura de señales en vivo.</i></p>
+  <p><i>Video 2: Demostración del prototipo y captura de señales en vivo.</i></p>
 </div>
 
 #### Comparativa de Gráficas
@@ -223,7 +223,7 @@ El siguiente video muestra el mecanismo en operación, el cual fue utilizado par
   <a href="URL_DE_TU_VIDEO_FUNCIONAMIENTO">
     <img src="./img/miniatura_tracker.png" alt="Video Funcionamiento Tracker" width="600">
   </a>
-  <p><i>Video 2: Captura del mecanismo para análisis cinemático por video.</i></p>
+  <p><i>Video 3: Captura del mecanismo para análisis cinemático por video.</i></p>
 </div>
 
 ### Gráficas Resultantes (Tracker)
